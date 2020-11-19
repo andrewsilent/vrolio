@@ -1,0 +1,60 @@
+@media screen and (max-width: 1180px)
+  .main
+    .container
+      flex-direction: column
+    .content
+      max-width: 100%
+      .blog-img
+        text-align: center
+        img
+          width: 100%
+          max-width: 807px
+    .aside
+      max-width: 600px
+      margin: 0 auto 60px auto
+  
+  .footer
+    .container
+      justify-content: space-around
+      ul
+        margin: 0
+
+@media screen and (max-width: 880px)
+  .header
+    padding-bottom: 20px
+    .navigation ul li a
+      line-height: 2.5
+      padding: 0 4px
+    .main-menu
+      padding-bottom: 20px
+    .menu
+      display: flex
+      flex-direction: column
+      align-items: center
+      .logo
+        padding-top: 20px
+        padding-bottom: 0
+
+  
+
+@media screen and (max-width: 480px)
+  .header .menu .main-menu li
+    display: block
+    text-align: center
+  .main .aside .post .post-img
+    width: 100%
+    max-width: 229px
+  .main .blog .blog-control
+    flex-direction: column
+    .blog-by, .blog-comments, .blog-share
+      margin: 10px 0
+  .main .replies .reply .reply-avatar
+    margin-right: 10px
+  .footer
+    padding-bottom: 20px
+    .container
+      flex-direction: column
+      ul
+        margin: 0 auto 30px auto
+        width: 100%
+        max-width: 150px
